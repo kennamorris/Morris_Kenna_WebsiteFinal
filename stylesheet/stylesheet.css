@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif
+}
+#mobile-nav {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #843A32;
+    z-index: 999;
+}
+#mobile-nav a {
+    display: block;
+    padding: 20px 40px;
+    color: white;
+    border-bottom: solid .5px #FEF2E0;
+}
+#mobile-nav button {
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    color: #FEF2E0;
+    font-size: 30px;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.grid-container2 {
+    display: grid;
+    padding-left: 90px;
+    padding-top: 30px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+.grid-container5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.header {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FEF2E0;
+}
+.nav {
+    text-align: right;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.nav a {
+    color: #843A32;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.nav-font {
+    font-family: "filson-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.hero-image {
+    padding: 30px;
+    position: relative;
+    background-image: url('../images/Banner\ Image\ copy.jpg');
+    background-size: cover;
+    height: 400px;
+    background-position: 0%;
+}
+img {
+    max-width: 100%;
+    height: auto; 
+}
+.hero-text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.material-symbols-outlined {  
+    font-variation-settings:  
+        'FILL' 1,  
+        'wght' 400,  
+        'GRAD' 0,  
+        'opsz' 24
+}
+.nav button {
+    display: none;
+}
+@media screen and (max-width: 648px) {
+    .nav a {
+        display: none;
+    }
+    .nav button {
+        display: inline;
+    }
+    .hero-text {
+        font-size: 30px;
+    }
+}
+.logo {
+    transform: scale(1.2);
+}
+.font {
+    font-family: "glodok";
+    font-size: 80px;
+    position: absolute;
+}
+.location {
+    font-family: "glodok";
+    font-size: 50px;
+    color: #843A32;
+    position: absolute; 
+}
+.bold {
+    font-family: "filson-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FEF2E0;
+}
+.body-font {
+    font-family: "filson-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #843A32;
+    text-align: center;
+}
+.body-font2 {
+    font-family: "filson-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #843A32;
+}
+.body-font3 {
+    font-family: "filson-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #FEF2E0;
+    padding: 10px;
+}
+.body-font-bold {
+    font-family: "filson-pro", sans-serif;
+    font-weight: 700;
+    text-decoration: bold;
+    font-style: normal;
+    color: #843A32;
+    line-height: 40px;
+    max-width: 400px;
+}
+.footer {
+    background-color: #843A32 ;
+    padding: 15px;
+    width: 100%; 
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-font {
+    font-family: "glodok";
+    font-size: 40px;
+    color: #843A32;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer {
+    background-color: #843A32 ;
+    width: 100%; 
+    padding: 30px;
+
+}
+.location-back {
+    margin-top: 100px;
+    background-color: #FEF2E0 ;
+    width: 100%; 
+}
+.img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+.stars {
+    padding: 20px;
+    text-align: center;
+}
+.img2 {
+    text-align: center;
+}
+button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color:#FEF2E0; 
+    color: white;
+    border: none; 
+    padding: 25px;
+    min-width: 80px; 
+    border-radius: 50px;
+    font-family: "glodok";
+    font-size: 40px;
+    color: #843A32;
+}

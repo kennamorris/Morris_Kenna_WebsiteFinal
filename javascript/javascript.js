@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $('#hamburger-menu').click(function(){
+        $('#mobile-nav').fadeIn();
+        console.log('hello');
+    });
+    $('#close-menu').click(function(){
+        $('#mobile-nav').fadeOut();
+    })
+});
